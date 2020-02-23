@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform('software.amazon.awssdk:bom:2.10.69')
+    implementation "software.amazon.awssdk:kms"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -1,0 +1,6 @@
+{
+  "stationid": 221,
+  "date": "1992-03-12",
+  "time": "091312",
+  "message":"This is a secret message. Please encrypt it when storing on disk."
+}
